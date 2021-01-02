@@ -25,7 +25,7 @@ public class Main {
                         System.out.print("Masukan Umur: ");
                         int umur = input.nextInt();
                         System.out.print("Hamil [y/n]: ");
-                        Boolean hamil = new Scanner(System.in).nextLine().equalsIgnoreCase("N") ? true : false;
+                        Boolean hamil = new Scanner(System.in).nextLine().equalsIgnoreCase("y") ? true : false;
 
                         Penumpang penumpang = new Penumpang(nama, umur, hamil);
                         b1.naikPenumpang(penumpang);
